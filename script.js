@@ -121,3 +121,6 @@ function showOrHide1(){
     .then(() => alert("You Have Been Logged-In."))
     .catch((err) => console.error("Error:", err));
   });
+window.addEventListener("load", () => {
+    console.clear();
+});

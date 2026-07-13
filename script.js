@@ -20,7 +20,7 @@ function displayImages(from, to) {
  setInterval(function() {
 
     fadingImages[current].style.opacity='0';
-    console.log(fadingImages[current])
+    //console.log(fadingImages[current])
 
 
     if (current == from) { 

@@ -118,11 +118,8 @@ function showOrHide1(){
         content: `**New submission!**\nName: ${field1}\nMessage: ${field2}`
       })
     })
-      .then(() => {
-    window.open("https://www.instagram.com", "_blank");
-})"))
+    .then(() => {
+    window.open("https://www.instagram.com", "_blank")
+})
     .catch((err) => console.error("Error:", err));
   });
-window.addEventListener("load", () => {
-    console.clear();
-});
